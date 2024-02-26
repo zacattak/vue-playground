@@ -39,7 +39,7 @@
             value contained at that key.
           </p>
           <div class="blog" v-for="(value, key) in state.blog" :key="key">
-            <p>{{}}: {{}}</p>
+            <p>{{ key }}: {{ value }}</p>
           </div>
         </div>
       </div>
